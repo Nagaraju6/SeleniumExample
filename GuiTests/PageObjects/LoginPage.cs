@@ -9,7 +9,7 @@ namespace Tests.PageObjects
     {
         private readonly IWebDriver _driver;
 
-        public LoginPage(IWebDriver driver)
+        public LoginPage(IWebDriver driverm)
         {
             _driver = driver;
             PageFactory.InitElements(_driver, this);
