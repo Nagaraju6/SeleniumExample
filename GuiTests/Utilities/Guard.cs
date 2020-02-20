@@ -5,6 +5,7 @@ using System.Globalization;
 
 namespace Structura.GuiTests.Utilities
 {
+    //This is just for testing
     public static class Guard
     {
         [DebuggerStepThrough]
