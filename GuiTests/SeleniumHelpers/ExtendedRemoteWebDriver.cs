@@ -1,9 +1,9 @@
-﻿using System;
-using System.IO;
-using System.Net;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
+using System;
+using System.IO;
+using System.Net;
 
 namespace Structura.GuiTests.SeleniumHelpers
 {

@@ -1,13 +1,13 @@
-﻿using System;
-using System.Globalization;
-using System.Text;
-using System.Threading;
-using FluentAssertions;
+﻿using FluentAssertions;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using Structura.GuiTests.PageObjects;
 using Structura.GuiTests.SeleniumHelpers;
 using Structura.GuiTests.Utilities;
+using System;
+using System.Globalization;
+using System.Text;
+using System.Threading;
 using Tests.PageObjects;
 
 namespace Structura.GuiTests
@@ -67,7 +67,7 @@ namespace Structura.GuiTests
             };
             a.ShouldThrow<NoSuchElementException>().WithMessage("Could not find element by: By.Id: btnGetAccount");
         }
-        
+
         [Test]
         public void RequestGoldenVisaShouldBeAccepted()
         {
@@ -83,7 +83,7 @@ namespace Structura.GuiTests
 
             // Need to wait until the results are displayed on the web page
             Thread.Sleep(500);
-            
+
             page.SuccessMessage.Text.StartsWith(
                 "Your new Altoro Mutual Gold VISA with a $10000 and 7.9% APR will be sent in the mail."
                 , true, CultureInfo.InvariantCulture).Should().BeTrue();

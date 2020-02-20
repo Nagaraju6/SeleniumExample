@@ -1,6 +1,5 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using Tests.PageObjects;
 
 namespace Structura.GuiTests.PageObjects
 {

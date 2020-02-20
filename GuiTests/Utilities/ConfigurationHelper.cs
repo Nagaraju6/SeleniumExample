@@ -10,7 +10,7 @@ namespace Structura.GuiTests.Utilities
             var value = ConfigurationManager.AppSettings[name];
             Guard.IsNotNull<InvalidOperationException>(value, "AppSetting with name {0} not found. Please check the application configuration file.", name);
             if (typeof(T).IsEnum)
-                return (T) Enum.Parse(typeof (T), value);
+                return (T)Enum.Parse(typeof(T), value);
             return (T)Convert.ChangeType(value, typeof(T));
         }
         public static string GetConnectionString(string name)

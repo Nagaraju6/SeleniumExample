@@ -1,10 +1,10 @@
-﻿using System.Threading;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using Tests.SeleniumHelpers;
 
 namespace Tests.PageObjects
 {
+    //This is just a comment12
     public class LoginPage
     {
         private readonly IWebDriver _driver;

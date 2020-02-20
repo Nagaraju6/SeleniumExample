@@ -1,12 +1,9 @@
-﻿using System;
-using System.Configuration;
-using System.Diagnostics;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
-using OpenQA.Selenium.Remote;
 using Structura.GuiTests.Utilities;
+using System;
 
 namespace Structura.GuiTests.SeleniumHelpers
 {
