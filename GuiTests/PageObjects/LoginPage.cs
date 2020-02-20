@@ -5,11 +5,12 @@ using Tests.SeleniumHelpers;
 
 namespace Tests.PageObjects
 {
+    //TEst Comments
     public class LoginPage
     {
         private readonly IWebDriver _driver;
 
-        public LoginPage(IWebDriver driverm)
+        public LoginPage(IWebDriver driver)
         {
             _driver = driver;
             PageFactory.InitElements(_driver, this);
