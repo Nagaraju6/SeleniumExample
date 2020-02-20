@@ -1,8 +1,8 @@
-﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
-using System;
+﻿using System;
 using System.Globalization;
 using System.Reflection;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 
 namespace Structura.GuiTests.SeleniumHelpers
 {
