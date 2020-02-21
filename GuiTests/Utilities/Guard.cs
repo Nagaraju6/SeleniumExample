@@ -6,6 +6,7 @@ using System.Globalization;
 namespace Structura.GuiTests.Utilities
 {
     //This is just for testing12
+    //test line
     public static class Guard
     {
         [DebuggerStepThrough]
