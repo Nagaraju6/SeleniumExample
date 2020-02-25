@@ -45,6 +45,7 @@ namespace Tests.PageObjects
             LoginButton.Click();
         }
 
+        //This is a Login method to validate use logins
         public void LoginAsNobody(string baseUrl)
         {
             _driver.Navigate().GoToUrl(baseUrl);
