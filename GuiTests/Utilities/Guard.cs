@@ -11,6 +11,7 @@ namespace Structura.GuiTests.Utilities
     public static class Guard
     {
         [DebuggerStepThrough]
+        //Static Method
         public static void IsLargerThan<TException>(decimal argumentValue, decimal mininumValue, string format, params object[] parameters) where TException : Exception
         {
             if (argumentValue <= mininumValue)
